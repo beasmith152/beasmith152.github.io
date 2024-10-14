@@ -6,3 +6,16 @@ body {
     text-align: center;
     color:white;
 }
+/* menu */
+
+#nav{
+    align-items: center;
+}
+
+.navlink{
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    text-decoration:uppercase;
+    margin-right: 15px;
+}

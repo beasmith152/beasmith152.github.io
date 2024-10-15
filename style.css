@@ -182,11 +182,12 @@ body {
   align-items: center;
   margin: 2em;
   font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 800;
+  font-style: italic;
     font-size: 4.5em;
     padding:0;
     margin:0;
+    color:#f542e3;
 
 }
 .rightme{

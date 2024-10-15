@@ -335,7 +335,7 @@ body {
       }
       .aboutself{
         
-        align-items: center;
+        align-items: left;
         margin: 0em;
         font-family: "Barlow Condensed", sans-serif;
         font-weight: 800;
@@ -420,6 +420,8 @@ body {
             font-size: 2em;
             z-index: 5; /* Higher than .BackgroundOverlay */
             margin-top:0em;
+
+            /* Imac and larger screen about me page */
     
             #aboutme{
               display:flex;
@@ -441,7 +443,7 @@ body {
               margin-top: 5em;
             }
             
-            #aboutme td{
+            .columnone{
               width:40em;
               height:auto;
               margin:0;
@@ -467,7 +469,8 @@ body {
             .rightme{
               margin: 2em;
              align-items: left;
-              
+              width:40em;
+              height:auto;
                 
             }
             .aboutmetext{

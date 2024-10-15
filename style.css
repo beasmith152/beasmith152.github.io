@@ -311,13 +311,13 @@ body {
         color:white;
         margin-top: 5em;
       }
-      
-      #aboutme td{
+      /* #aboutme td{
         width:40em;
         height:auto;
         margin:0;
         padding:0;
-      }
+      } */
+      
       
       .self{
         width:11em;
@@ -338,7 +338,7 @@ body {
       
       }
       .rightme td{
-        margin-right: 1em;
+        margin-right: 2em;
        align-items: left;
         padding:0;
           

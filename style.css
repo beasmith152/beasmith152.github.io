@@ -319,8 +319,8 @@ body {
       }
       
       .self{
-        width:10em;
-        margin-left:2em;
+        width:12em;
+        margin-left:1em;
       }
       .aboutself{
         
@@ -335,7 +335,7 @@ body {
           color:#f542e3;
       
       }
-      .rightme{
+      .rightme td{
         margin-right: 2em;
        align-items: left;
         

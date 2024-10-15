@@ -171,11 +171,12 @@ body {
 #aboutme td{
   width:40em;
   height:auto;
-  margin: 2em;
+  margin:0;
 }
 
 .self{
   width:25em;
+  margin-left:10em;
 }
 .aboutself{
   

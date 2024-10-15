@@ -167,9 +167,14 @@ body {
   color:white;
   margin-top: 5em;
 }
-
-#aboutme td{
+/* #aboutme td{
   width:40em;
+  height:auto;
+  margin:0;
+} */
+
+.columnone{
+  width:20em;
   height:auto;
   margin:0;
 }
@@ -194,7 +199,8 @@ body {
 .rightme{
   margin: 2em;
  align-items: left;
-  
+  width:20em;
+  height:auto;
     
 }
 .aboutmetext{

@@ -289,6 +289,65 @@ body {
         margin-top:-.5em;
         
       }
+
+/* Small about me page */
+
+      #aboutme{
+        display:flex;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        z-index: 15;
+        color:white;
+        margin-top: 3em;
+      }
+      
+      #aboutme table{
+        display:flex;
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        z-index: 15;
+        color:white;
+        margin-top: 5em;
+      }
+      
+      #aboutme td{
+        width:40em;
+        height:auto;
+        margin:0;
+      }
+      
+      .self{
+        width:5em;
+        margin-left:0em;
+      }
+      .aboutself{
+        
+        align-items: center;
+        margin: 2em;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+          font-size: 2em;
+          padding:0;
+          margin:0;
+          color:#f542e3;
+      
+      }
+      .rightme{
+        margin: 2em;
+       align-items: left;
+        
+          
+      }
+      .aboutmetext{
+        margin-top:1em;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1em;
+      }
         
     }
 

@@ -349,6 +349,10 @@ body {
         padding:0;
           
       }
+      .columnone{
+        width:20em;
+        height:auto;
+      }
       .aboutmetext{
         margin-top:1em;
         font-family: "Barlow Condensed", sans-serif;

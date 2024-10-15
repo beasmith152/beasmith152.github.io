@@ -321,6 +321,7 @@ body {
       .self{
         width:12em;
         margin-left:1em;
+        padding:0;
       }
       .aboutself{
         
@@ -336,9 +337,9 @@ body {
       
       }
       .rightme td{
-        margin-right: 2em;
+        margin-right: 1em;
        align-items: left;
-        
+        padding:0;
           
       }
       .aboutmetext{

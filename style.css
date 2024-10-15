@@ -17,7 +17,7 @@ body {
 }
 .backgroundoverlay{
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.5;
     height:100%;
     width:100%;
     padding:0;
@@ -25,6 +25,9 @@ body {
     position: absolute;
     z-index: 2;
 }
+
+/* Site Hero  */
+
 .SiteHero{
     position:relative;
     text-align: center;
@@ -38,7 +41,7 @@ body {
     padding-top:1em;
     font-size: 5em;
     height: calc(100vh - 5em); /* Full height minus the height of the nav */
-    padding: 0 1em; /* Add some padding for smaller screens */
+    padding: 0; /* Add some padding for smaller screens */
     z-index: 5; /* Higher than .BackgroundOverlay */
 }
 .siteherobea{
@@ -47,7 +50,42 @@ body {
   font-style: italic;
   color:#f542e3;
   margin: 0 10px; /* Add horizontal space */
+  padding:0;
 }
+.SiteSubHero{
+    position:relative;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top:-3em;
+    font-size: 3em;
+    z-index: 5; /* Higher than .BackgroundOverlay */
+}
+
+.SiteSubHeroLink a{
+  position:relative;
+  text-decoration:none;
+  text-align: center;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  z-index: 5; /* Higher than .BackgroundOverlay */
+  
+}
+.SiteSubHeroLink a:hover{
+  color:#f542e3;
+}
+
 /* menu */
 
 #Nav{
@@ -151,12 +189,26 @@ body {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 3em;;
     height: calc(100vh - 5em); /* Full height minus the height of the nav */
-    padding: 1em; /* Add some padding for smaller screens */
+    padding: 0; /* Add some padding for smaller screens */
     z-index: 5; /* Higher than .BackgroundOverlay */
     position: relative;
         }
-    
+        .SiteSubHero{
+          position:relative;
+          text-align: center;
+          color:white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 400;
+          font-style: italic;
+          margin-top:-4em;
+          font-size: 2em;
+          z-index: 5; /* Higher than .BackgroundOverlay */
+      }
         
     }
     /* .barlow-condensed-thin {

@@ -155,7 +155,7 @@ body {
   align-items: center;
   z-index: 15;
   color:white;
-  margin-top: 8em;
+  margin-top: 3em;
 }
 
 #aboutme table{
@@ -175,7 +175,7 @@ body {
 }
 
 .self{
-  width:25em;
+  width:20em;
   margin-left:10em;
 }
 .aboutself{
@@ -254,6 +254,63 @@ body {
         font-size: 2em;
         z-index: 5; /* Higher than .BackgroundOverlay */
         margin-top:0em;
+
+        #aboutme{
+          display:flex;
+          position:relative;
+          justify-content: center;
+          align-items: center;
+          z-index: 15;
+          color:white;
+          margin-top: 8em;
+        }
+        
+        #aboutme table{
+          display:flex;
+          position:relative;
+          justify-content: center;
+          align-items: center;
+          z-index: 15;
+          color:white;
+          margin-top: 5em;
+        }
+        
+        #aboutme td{
+          width:40em;
+          height:auto;
+          margin:0;
+        }
+        
+        .self{
+          width:25em;
+          margin-left:10em;
+        }
+        .aboutself{
+          
+          align-items: center;
+          margin: 2em;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 800;
+          font-style: italic;
+            font-size: 4.5em;
+            padding:0;
+            margin:0;
+            color:#f542e3;
+        
+        }
+        .rightme{
+          margin: 2em;
+         align-items: left;
+          
+            
+        }
+        .aboutmetext{
+          margin-top:1em;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 200;
+          font-style: normal;
+          font-size: 1.5em;
+        }
 
 
 }

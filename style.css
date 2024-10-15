@@ -320,7 +320,7 @@ body {
       
       .self{
         width:10em;
-        margin-left:0em;
+        margin-left:2em;
       }
       .aboutself{
         
@@ -336,7 +336,7 @@ body {
       
       }
       .rightme{
-        margin: 0em;
+        margin-right: 2em;
        align-items: left;
         
           

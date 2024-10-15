@@ -174,7 +174,7 @@ body {
 } */
 
 .columnone{
-  width:20em;
+  width:40em;
   height:auto;
   margin:0;
 }
@@ -199,7 +199,7 @@ body {
 .rightme{
   margin: 2em;
  align-items: left;
-  width:20em;
+  width:40em;
   height:auto;
     
 }

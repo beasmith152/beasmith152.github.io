@@ -207,7 +207,7 @@ body {
 /* Large Screen Adaptations */
 
 
-@media (max-width: 3000px)    {
+@media (min-width: 3200px)    {
 
   .SiteHero {
     text-align: center;

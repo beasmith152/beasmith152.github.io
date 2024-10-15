@@ -268,7 +268,7 @@ body {
           font-family: "Barlow Condensed", sans-serif;
           font-weight: 400;
           font-style: italic;
-          margin-top:-4em;
+          margin-top:-5em;
           font-size: 2em;
           z-index: 5; /* Higher than .BackgroundOverlay */
       }

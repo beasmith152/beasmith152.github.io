@@ -316,6 +316,7 @@ body {
         width:40em;
         height:auto;
         margin:0;
+        padding:0;
       }
       
       .self{
@@ -340,7 +341,6 @@ body {
         margin-right: 1em;
        align-items: left;
         padding:0;
-        width:12em;
           
       }
       .aboutmetext{

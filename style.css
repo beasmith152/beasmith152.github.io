@@ -147,7 +147,27 @@ body {
 
     /* Highest z index is 13  */
 
+/* about me page */
+#aboutme{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  z-index: 15;
+  color:white;
+}
 
+.self{
+  width:15em;
+}
+.aboutself{
+  
+  align-items: center;
+  margin: 2em;
+  font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
 
     
     /* Mobile Menu */

@@ -352,7 +352,7 @@ body {
         position: relative;
         margin-right: 2em;
        align-items: left;
-        padding:0;
+        padding-right:1em;
           z-index: 8;
       }
       .columnone{

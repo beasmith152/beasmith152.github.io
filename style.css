@@ -152,12 +152,30 @@ body {
   display:flex;
   position:relative;
   justify-content: center;
+  align-items: center;
   z-index: 15;
   color:white;
+  margin-top: 5em;
+}
+
+#aboutme table{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  color:white;
+  margin-top: 5em;
+}
+
+#aboutme td{
+  width:40em;
+  height:auto;
+  margin: 2em;
 }
 
 .self{
-  width:15em;
+  width:25em;
 }
 .aboutself{
   
@@ -166,9 +184,24 @@ body {
   font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 4.5em;
+    padding:0;
+    margin:0;
 
 }
-
+.rightme{
+  margin: 2em;
+ align-items: left;
+  
+    
+}
+.aboutmetext{
+  margin-top:1em;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+}
 /* Large Screen Adaptations */
 
 

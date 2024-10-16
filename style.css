@@ -421,7 +421,7 @@ body {
 
       /* My Work Page mobile */
         
-    #work table, tbody, tr, td {
+    #work table {
         display: block;
         width: 100%;
         position: relative;

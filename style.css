@@ -452,6 +452,7 @@ body {
       border: none;
       display: block;
       justify-content: center;
+      align-items: center;
     }
 
     #work td:before {

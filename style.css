@@ -418,7 +418,32 @@ body {
         font-style: normal;
         font-size: 1em;
       }
+
+      /* My Work Page mobile */
         
+    #work table, tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 1em;
+    }
+
+    td {
+        text-align: left;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
     }
 
 /* larger screen adaptation */

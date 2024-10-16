@@ -222,30 +222,46 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 15;
-    color:white;
+    color:#f542e3;
     margin-top: 5em;
 }
+
 .workone{
   width:40em;
   height:auto;
   margin:0;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: italic;
   text-align: center;
   font-size: 1.5em;;
 
 }
+
+.workone embed{
+  width:30em;
+  height: 20em;
+  margin-top:0.5em;
+  border: none;
+}
+
 .worktwo{
   width:40em;
   height:auto;
   margin:0;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: italic;
   text-align: center;
   font-size: 1.5em;
 
+}
+
+.worktwo embed{
+  width:30em;
+  height: 20em;
+  margin-top:0.5em;
+  border: none;
 }
 
 
@@ -632,4 +648,5 @@ body {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 900;
   font-style: italic;
-} */
+} 
+  */

@@ -667,7 +667,24 @@ border: none;
     }
 
     /* TV screen sizing  */
+    @media (min-width: 3840px){
+      .SiteSubHero{
+        position:relative;
+        text-align: center;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        margin-top:-6.5em;
+        font-size: 4em;
+        z-index: 5; /* Higher than .BackgroundOverlay */
+    }
 
+
+    }
 
 
 

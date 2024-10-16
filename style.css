@@ -430,7 +430,8 @@ body {
     }
 
     #work tr {
-        margin-bottom: 1em;
+        margin-bottom: 0;
+        display:block;
     }
 
     #work td {
@@ -438,6 +439,7 @@ body {
         padding:0;
         margin:0;
         border: none;
+        display: block;
     }
 
     #work embed{
@@ -445,6 +447,7 @@ body {
       height: 8em;
       margin-top:0.5em;
       border: none;
+      display: block;
     }
 
     #work td:before {

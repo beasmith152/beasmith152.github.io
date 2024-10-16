@@ -472,10 +472,14 @@ body {
 
     #work td:before {
         content: attr(data-label);
-        font-weight: bold;
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 500;
+        font-style: italic;
         display: block;
         margin-bottom: 5px;
+        margin-top:.5em;
     }
+
 
     }
 

@@ -424,6 +424,9 @@ body {
     #work table, tbody, tr, td {
         display: block;
         width: 100%;
+        position: relative;
+        z-index: 8;
+        justify-content: center;
     }
 
     tr {

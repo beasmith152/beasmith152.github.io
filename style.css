@@ -434,7 +434,7 @@ body {
       /* My Work Page mobile */
         
       #work{
-        overflow-y: auto;
+        overflow-x: auto;
       }
 
     #work table {

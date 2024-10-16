@@ -491,7 +491,22 @@ body {
 
 
     }
-
+/* tv lower 1080 adaptation */
+@media (min-width: 1080px){
+  .SiteSubHero{
+    position:relative;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top:-6.5em;
+    font-size: 3em;
+    z-index: 5; /* Higher than .BackgroundOverlay */
+}
 /* larger screen adaptation */
 
     @media (min-width: 3200px)    {

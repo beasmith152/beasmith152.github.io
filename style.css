@@ -282,6 +282,15 @@ body {
 
 
     @media (max-width: 768px) {
+
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: auto; /* Ensure scrolling is enabled */
+    }
+
       #Nav {
             flex-direction: column;
             height: auto;
@@ -432,6 +441,10 @@ body {
 
       /* My Work Page mobile */
         
+      #work{
+        overflow: auto;
+      }
+      
     #work table {
         display: block;
         width: 100%;

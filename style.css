@@ -436,11 +436,13 @@ body {
     }
 
     #work td {
-        text-align: left;
+        text-align: center;
         padding:0;
         margin:0;
         border: none;
         display: block;
+        justify-content: center;
+
     }
 
     #work embed{
@@ -449,6 +451,7 @@ body {
       margin-top:0.5em;
       border: none;
       display: block;
+      justify-content: center;
     }
 
     #work td:before {

@@ -423,7 +423,7 @@ body {
         z-index: 8;
       }
       .aboutmetext{
-        margin-top:-1em;
+        margin-top:-.5em;
         font-family: "Barlow Condensed", sans-serif;
         font-weight: 200;
         font-style: normal;

@@ -429,18 +429,18 @@ body {
         justify-content: center;
     }
 
-    tr {
+    #work tr {
         margin-bottom: 1em;
     }
 
-    td {
+    #work td {
         text-align: left;
         padding:0;
         margin:0;
         border: none;
     }
 
-    td:before {
+    #work td:before {
         content: attr(data-label);
         font-weight: bold;
         display: block;

@@ -682,7 +682,7 @@ border: none;
     }
 
     /* TV screen sizing  */
-    @media (min-width: 3840px){
+    @media (min-width: 3800px){
       .SiteSubHero{
         position:relative;
         text-align: center;
@@ -693,7 +693,7 @@ border: none;
         font-family: "Barlow Condensed", sans-serif;
         font-weight: 400;
         font-style: italic;
-        margin-top:-6.5em;
+        margin-top:-5em;
         font-size: 4em;
         z-index: 5; /* Higher than .BackgroundOverlay */
     }

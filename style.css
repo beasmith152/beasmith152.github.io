@@ -221,7 +221,7 @@ body {
     position:relative;
     justify-content: center;
     align-items: center;
-    z-index: 15;
+    z-index: 8;
     color:#f542e3;
     margin-top: 5em;
 }
@@ -478,7 +478,7 @@ body {
               position:relative;
               justify-content: center;
               align-items: center;
-              z-index: 15;
+              z-index: 8;
               color:white;
               margin-top: 8em;
             }
@@ -488,7 +488,7 @@ body {
               position:relative;
               justify-content: center;
               align-items: center;
-              z-index: 15;
+              z-index: 8;
               color:white;
               margin-top: 5em;
             }
@@ -530,7 +530,57 @@ body {
               font-style: normal;
               font-size: 1.5em;
             }
-    
+
+
+    /* my work page for IMac*/
+
+#work{
+  display:flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+  color:#f542e3;
+  margin-top: 2em;
+}
+
+.workone{
+width:40em;
+height:auto;
+margin:0;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 500;
+font-style: italic;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.workone embed{
+width:30em;
+height: 20em;
+margin-top:0.5em;
+border: none;
+}
+
+.worktwo{
+width:40em;
+height:auto;
+margin:0;
+font-family: "Barlow Condensed", sans-serif;
+font-weight: 500;
+font-style: italic;
+text-align: center;
+font-size: 1.5em;
+
+}
+
+.worktwo embed{
+width:30em;
+height: 20em;
+margin-top:0.5em;
+border: none;
+}
     
     }
 

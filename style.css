@@ -214,8 +214,39 @@ body {
   font-size: 1.5em;
 }
 
+/* my work page */
 
+#work{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    color:white;
+    margin-top: 5em;
+}
+.workone{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.5em;;
 
+}
+.worktwo{
+  width:40em;
+  height:auto;
+  margin:0;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.5em;
+
+}
 
 
     /* Mobile Menu */

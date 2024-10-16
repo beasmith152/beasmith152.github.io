@@ -693,7 +693,7 @@ border: none;
         font-family: "Barlow Condensed", sans-serif;
         font-weight: 400;
         font-style: italic;
-        margin-top:-8em;
+        margin-top:-14em;
         font-size: 4em;
         z-index: 5; /* Higher than .BackgroundOverlay */
     }

@@ -492,7 +492,7 @@ body {
 
     }
 /* tv lower 1080 adaptation */
-@media (min-width: 1080px){
+@media (min-width: 1920px){
   .SiteSubHero{
     position:relative;
     text-align: center;

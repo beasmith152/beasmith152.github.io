@@ -6,7 +6,28 @@ html {
     overflow:hidden;
     z-index: 0;
 }
-
+.custom{
+  background: black;
+  background-image:url("images/IMG_3579.jpg");
+  background-size: cover;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  z-index: 1;
+  overflow:auto;
+}
+.backgroundoverlaycustom{
+  background-color: black;
+  opacity: 0.5;
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+  position: fixed;
+  overflow:auto;
+  z-index: 2;
+}
 body {
     background: black;
     background-image:url("images/IMG_3579.jpg");
@@ -103,6 +124,7 @@ body {
     border:none;
     align-items: center;
     z-index: 10;
+    position: fixed;
 }
 
 .navlink{

@@ -180,7 +180,7 @@ body {
   align-items: center;
   z-index: 8;
   color:white;
-  margin-top: 4.5em;
+  margin-top: 6em;
 }
 
 #aboutme table{
@@ -190,7 +190,7 @@ body {
   align-items: center;
   z-index: 15;
   color:white;
-  margin-top: 5em;
+  
 }
 /* #aboutme td{
   width:40em;

@@ -468,7 +468,7 @@ body {
         
       #work{
         overflow-y: scroll;
-        overflow-x: hidden;
+        overflow-x: none;
         height:100%;
         width:auto;
       }

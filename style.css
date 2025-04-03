@@ -458,8 +458,8 @@ body {
         overflow-y: scroll;
         overflow-x: hidden;
         height:100%;
-        width:100%;
-        margin-top: -10em;
+        width:auto;
+        margin-top: 5em;
       }
 
     #work table {
